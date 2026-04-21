@@ -42,7 +42,7 @@ list-style-type: decimal;
      text-align: center;
 }
 
-a:link, a:visited {
+.links a , .links a:visited  {
   background-color: #7ae4ff;
   color: rgb(0, 0, 0);
   padding: 14px 25px;
@@ -52,7 +52,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+.links a:hover, .links a:active   {
   background-color: rgb(140, 203, 255);
 }
 .box-sub-container {
@@ -72,4 +72,7 @@ a:hover, a:active {
    padding: 10px 20px;
    border-radius: 8px;  
    margin-bottom: 10px;
+   
 }
+
+
